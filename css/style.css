@@ -1,0 +1,21 @@
+body {
+    margin:0;
+}
+
+#particles-container {
+    position: relative;
+    background: #171A1A;
+    height: 400px;
+}
+
+.canvas-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #171A1A;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-size: 250px;
+}
+  
