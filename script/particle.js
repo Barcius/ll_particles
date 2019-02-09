@@ -38,7 +38,7 @@ function Particle() {
         if (this.h > 255) {
             this.h = 0;
         }
-        strokeWeight(5);
+        strokeWeight(2);
         line(this.pos.x, this.pos.y, this.prevPos.x, this.prevPos.y);
         this.updatePrev();
     }

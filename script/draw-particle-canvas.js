@@ -1,12 +1,4 @@
-// function setup() {
-//     createCanvas(windowWidth, windowHeight, WEBGL);
-// }
-
-
-// function draw() {
-//     background(21, 24, 24);
-//     box();
-// }
+const particlesCount = 1000;
 
 
 var inc = 0.1;
@@ -28,7 +20,7 @@ function prepareFlowField() {
 
     flowfield = new Array(cols * rows);
 
-    for (var i = 0; i < 500; i++) {
+    for (var i = 0; i < particlesCount; i++) {
         particles[i] = new Particle();
     }
 }
