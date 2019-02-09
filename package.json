@@ -1,0 +1,27 @@
+{
+  "name": "ll_particles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Barcius/ll_particles.git"
+  },
+  "keywords": [
+    "particle"
+  ],
+  "author": "Denis Gorbunov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Barcius/ll_particles/issues"
+  },
+  "homepage": "https://github.com/Barcius/ll_particles#readme"
+}
